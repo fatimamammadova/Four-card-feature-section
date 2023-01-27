@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 98%);
+    height: 922px;
+}
+header {
+    text-align: center;
+    width: 500px;
+}
+header .one {
+    font-weight: 200;
+    color: hsl(234, 12%, 34%);
+}
+header .two {
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+}
+header p {
+    margin-top: 25px;
+    color: hsl(229, 6%, 66%);
+}
+.cards1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 65px;
+}
+.card {
+    width: 350px;
+    height: 251px;
+    background-color: #fff;
+    padding: 33px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.card h4 {
+    color: hsl(234, 12%, 34%);
+}
+.card p {
+    color: hsl(229, 6%, 66%);
+    font-size: 14px;
+    margin-top: 21px;
+}
+.card1 {
+    border-top: 4px solid hsl(180, 62%, 55%);
+    margin-right: 30px;
+}
+.card2 {
+    border-top: 4px solid hsl(0, 78%, 62%);
+    margin-bottom: 30px;
+}
+.card3 {
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+.card4 {
+    border-top: 4px solid hsl(212, 86%, 64%);
+    margin-left: 30px;
+}
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 42px;
+}
+footer {
+    color: black;
+    margin-top: 50px;
+    font-family: initial;
+    font-size: 16px;
+}
+@media (max-width: 600px) {
+    body {
+        width: 100%;
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 1500px;
+    }
+    header,.cards1 {
+        width: 300px;
+    }
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 40px;
+        margin-top: 50px;
+    }
+    header h1 {
+        font-size: 23px;
+    }
+    header p {
+        text-align: center;
+        width: 300px;
+    }
+    .cards1 .card {
+        margin-bottom: 25px;
+        width: 311px;
+        height: 222px;
+        padding: 25px;
+    }
+    .cards1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .card1,.card2,.card4 {
+        margin: 0;
+    }
+    .image {
+        margin-top: 25px;
+    }
+    .image img {
+        width: 55px;
+        height: 55px;
+    }
+    footer {
+        margin-top: 50px;
+        font-size: 10px;
+    }
+}
